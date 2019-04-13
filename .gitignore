@@ -1,0 +1,40 @@
+# Windows
+Thumbs.db
+
+# Java
+*.class
+*.classpath
+*.project
+
+# JS
+node_modules
+npm-debug.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven
+target
+
+# Intellij Idea
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle
+build
+out
+user.gradle
+
+# Git merge
+*.orig
+
+security/security-bundle
+test/report
+
+
+classes

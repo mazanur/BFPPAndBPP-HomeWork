@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean name="XmlPostService" class="ru.itpark.services.xml.XmlPostService" autowire="constructor">
+    </bean>
+
+    <bean class="ru.itpark.services.xml.XmlRequestClient" name="client"/>
+
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate"/>
+
+
+    <bean class="ru.itpark.JsonPropertyPlaceholderConfigurer"/>
+    <bean class="ru.itpark.CashedAnnotationBeanPostProcessor"/>
+
+    <!--<bean class="ru.itpark.services.xml.XmlConnector" name="connector">-->
+        <!--<constructor-arg name="id" value="${id}"/>-->
+        <!--<constructor-arg name="age" value="${age}"/>-->
+    <!--</bean>-->
+
+</beans>
