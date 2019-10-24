@@ -17,6 +17,7 @@ public class CashedAnnotationBeanPostProcessor implements BeanPostProcessor {
     private final Map<Map<Method, Object>, Object> cashe = new HashMap<>();
 
 
+
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
 
