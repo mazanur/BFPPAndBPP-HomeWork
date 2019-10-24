@@ -12,6 +12,7 @@ import java.util.Properties;
 /**
  * Подставляет данные вместо плейсхолдеров из файла #properties.json
  */
+
 public class JsonPropertyPlaceholderConfigurer extends PropertyPlaceholderConfigurer {
 
     public JsonPropertyPlaceholderConfigurer() throws FileNotFoundException {
