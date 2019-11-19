@@ -14,7 +14,7 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <dependencies>1
+    <dependencies>12
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
